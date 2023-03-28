@@ -36,3 +36,7 @@ Route::get('/build', function () {
 Route::get('/profile', function () {
     return view('profile');
 })->name('profile');
+
+Route::get('/manage-order', function () {
+    return view('manageOrder');
+})->name('manageOrder');

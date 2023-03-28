@@ -8,7 +8,7 @@
     @vite('resources/js/app.js')
     <title>pcThrift</title>
 </head>
-<body class="bg-black font-sans scroll-smooth text-white">
+<body class="bg-black font-sans scroll-smooth text-white h-[100%] m-0">
     <nav class=" flex flex-row main-font justify-between mx-8 items-center">
         <div class="flex flex-row text-white">
             <img src= "{{URL('images/navLogo.png')}}" alt="title" class="w-1/2 h-1/2 object-contain">
@@ -30,7 +30,9 @@
                 <li><img src= "{{URL('images/cart.svg')}} " class="w-7 h-7 object-contain"> </li>
             </ul>
             @auth
-            <img src="{{URL('images/mumei_ghost.png')}}" class="w-10 h-10 rounded-full">
+            <a href="{{route('profile')}}">
+              <img src="{{URL('images/mumei_ghost.png')}}" class="w-10 h-10 rounded-full" >
+            </a>  
             @else
             <a class="flex cursor-pointer hover:text-gray-400 transition duration-300" href="{{route('signIn')}}">Login</a>
             @endauth
@@ -38,9 +40,12 @@
         </div>   
     </nav>
 
-    {{$slot}}
+    <div class="min-h-[100%] m-0">
+      {{$slot}}
+    </div>
     
-    <div class="bg-gray-900">
+    
+    <div class="bg-gray-900 mt-auto">
         <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div class="grid row-gap-10 mb-8 lg:grid-cols-6">
             <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
