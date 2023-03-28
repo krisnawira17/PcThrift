@@ -19,7 +19,7 @@
     
         <a href="#" class="block w-[40vw] h-[25vh] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-100  dark:hover:bg-gray-200">
         <img src="{{URL('images/ArtLogo.svg')}}" class="items-center mx-auto mb-[3vh] h-[12vh]">
-         <p class="font-semibold text-[1.5vw] dark:text-gray-800">Art</p>
+         <p class="font-semibold text-[1.5vw] dark:text-gray-900">Art</p>
     
     </a>
     

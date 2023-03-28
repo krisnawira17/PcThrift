@@ -33,3 +33,6 @@ Route::get('/build', function () {
     return view('build');
 })->name('build');
 
+Route::get('/profile', function () {
+    return view('profile');
+})->name('profile');

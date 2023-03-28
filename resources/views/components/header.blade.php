@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
+    @vite('resources/js/app.js')
     <title>pcThrift</title>
 </head>
-<body class="bg-black font-sans scroll-smooth">
+<body class="bg-black font-sans scroll-smooth text-white">
     <nav class=" flex flex-row main-font justify-between mx-8 items-center">
         <div class="flex flex-row text-white">
             <img src= "{{URL('images/navLogo.png')}}" alt="title" class="w-1/2 h-1/2 object-contain">
