@@ -8,7 +8,7 @@
     @vite('resources/js/app.js')
     <title>pcThrift</title>
 </head>
-<body class="bg-black font-sans scroll-smooth text-white h-[100%] m-0">
+<body class="bg-black font-roboto scroll-smooth text-white h-[100%] m-0">
     <nav class=" flex flex-row main-font justify-between mx-8 items-center">
         <div class="flex flex-row text-white">
             <img src= "{{URL('images/navLogo.png')}}" alt="title" class="w-1/2 h-1/2 object-contain">

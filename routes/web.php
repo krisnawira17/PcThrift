@@ -28,6 +28,9 @@ Route::get('/signUp', function () {
 Route::get('/bundle', function () {
     return view('bundle');
 })->name('bundle');
+Route::get('/bundle-gaming', function () {
+    return view('bundle-gaming');
+})->name('bundle-gaming');
 
 Route::get('/build', function () {
     return view('build');
@@ -40,3 +43,11 @@ Route::get('/profile', function () {
 Route::get('/manage-order', function () {
     return view('manageOrder');
 })->name('manageOrder');
+
+Route::get('/product', function (Illuminate\Http\Request $request) {
+    $image = $request->query('image');
+    $name = $request->query('name');
+    $price = $request->query('price');
+
+    return view('product', ['image' => $image, 'name' => $name, 'price' => $price]);
+})->name('product.show');
