@@ -2,7 +2,7 @@
     <div class="flex flex-col justify-center items-center h-screen">
         <h1 class="text-center text-white font-bold text-[3vw] pb-[3vh]">Pick your parts</h1>
         <div class="grid grid-cols-4 gap-4 gap-x-6 justify-items-center text-center mx-auto">
-            <a href="#" class="block w-[20vw] h-[25vh] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-100  dark:hover:bg-gray-200">
+            <a href="{{route("cpu")}}" class="block w-[20vw] h-[25vh] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-100  dark:hover:bg-gray-200">
             <img src="{{URL('images/chip.png')}}" class="items-center mx-auto mb-[3vh] h-[12vh]">
             <p class="font-semibold text-[1.5vw] dark:text-gray-900">CPU</p>
             

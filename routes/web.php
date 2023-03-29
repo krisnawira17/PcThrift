@@ -49,5 +49,9 @@ Route::get('/product', function (Illuminate\Http\Request $request) {
     $name = $request->query('name');
     $price = $request->query('price');
 
-    return view('product', ['image' => $image, 'name' => $name, 'price' => $price]);
+    return view('productBundle', ['image' => $image, 'name' => $name, 'price' => $price]);
 })->name('product.show');
+
+Route::get('/cpu', function () {
+    return view('cpu');
+})->name('cpu');
