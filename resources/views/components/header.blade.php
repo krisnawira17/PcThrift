@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
-    @vite('resources/js/app.js')
+    @vite('resources/js/amountBar.js')
+    @vite('resources/js/radioBtn.js')
+    @vite('resources/js/priceCalc.js')
     <title>pcThrift</title>
 </head>
 <body class="bg-black font-roboto scroll-smooth text-white h-[100%] m-0">

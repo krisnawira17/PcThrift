@@ -44,7 +44,7 @@ Route::get('/manage-order', function () {
     return view('manageOrder');
 })->name('manageOrder');
 
-Route::get('/product', function (Illuminate\Http\Request $request) {
+Route::get('/product-bundle', function (Illuminate\Http\Request $request) {
     $image = $request->query('image');
     $name = $request->query('name');
     $price = $request->query('price');
@@ -55,3 +55,29 @@ Route::get('/product', function (Illuminate\Http\Request $request) {
 Route::get('/cpu', function () {
     return view('cpu');
 })->name('cpu');
+Route::get('/motherboard', function () {
+    return view('motherboard');
+})->name('motherboard');
+Route::get('/ram', function () {
+    return view('ram');
+})->name('ram');
+Route::get('/storage', function () {
+    return view('storage');
+})->name('storage');
+Route::get('/graphic-card', function () {
+    return view('graphic-card');
+})->name('graphic-card');
+Route::get('/power-supply', function () {
+    return view('power-supply');
+})->name('power-supply');
+Route::get('/cases', function () {
+    return view('cases');
+})->name('cases');
+
+Route::get('/product-details', function (Illuminate\Http\Request $request) {
+    $image = $request->query('image');
+    $name = $request->query('name');
+    $price = $request->query('price');
+
+    return view('productInfo', ['image' => $image, 'name' => $name, 'price' => $price]);
+})->name('productDetails.show');
