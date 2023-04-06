@@ -28,7 +28,7 @@
         <div class="flex flex-row text-white text-xl font-semibold ">
             <ul class="flex space-x-[2vw] cursor-pointer pr-[2vw] ">
                 <li class=" hover:text-gray-400 transition duration-300"><a href="{{route('home')}}">Home</a></li>
-                <li class="hover:text-gray-400 transition duration-300">Consult</li>
+                <li class="hover:text-gray-400 transition duration-300"><a href="{{route('consult')}}">Consult</a></li>
                 <li><img src= "{{URL('images/cart.svg')}} " class="w-7 h-7 object-contain"> </li>
             </ul>
             @auth
@@ -47,7 +47,7 @@
     </div>
     
     
-    <div class="bg-gray-900 mt-auto">
+    <div class="bg-gray-900 mt-auto ">
         <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div class="grid row-gap-10 mb-8 lg:grid-cols-6">
             <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">

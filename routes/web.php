@@ -16,14 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 })->name('home');
-
 Route::get('/signIn', function () {
     return view('signIn');
 })->name('signIn');
-
 Route::get('/signUp', function () {
     return view('signUp');
 })->name('signUp');
+Route::get('/consult', function () {
+    return view('consult');
+})->name('consult');
 
 Route::get('/bundle', function () {
     return view('bundle');
