@@ -26,6 +26,11 @@ Route::get('/consult', function () {
     return view('consult');
 })->name('consult');
 
+
+Route::get('/cart', function () {
+    return view('cart');
+})->name('cart');
+
 Route::get('/bundle', function () {
     return view('bundle');
 })->name('bundle');

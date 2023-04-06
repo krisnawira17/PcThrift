@@ -29,7 +29,7 @@
             <ul class="flex space-x-[2vw] cursor-pointer pr-[2vw] ">
                 <li class=" hover:text-gray-400 transition duration-300"><a href="{{route('home')}}">Home</a></li>
                 <li class="hover:text-gray-400 transition duration-300"><a href="{{route('consult')}}">Consult</a></li>
-                <li><img src= "{{URL('images/cart.svg')}} " class="w-7 h-7 object-contain"> </li>
+                <li><a href="{{route('cart')}}"><img src= "{{URL('images/cart.svg')}} " class="w-7 h-7 object-contain"></a></li>
             </ul>
             @auth
             <a href="{{route('profile')}}">
