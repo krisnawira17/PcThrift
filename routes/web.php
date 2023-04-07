@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CartController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,7 +26,6 @@ Route::get('/signUp', function () {
 Route::get('/consult', function () {
     return view('consult');
 })->name('consult');
-
 
 Route::get('/cart', function () {
     return view('cart');
@@ -87,3 +87,5 @@ Route::get('/product-details', function (Illuminate\Http\Request $request) {
 
     return view('productInfo', ['image' => $image, 'name' => $name, 'price' => $price]);
 })->name('productDetails.show');
+
+Route::post("/cart/add",[CartController::class, 'add'])->name('cart.add');

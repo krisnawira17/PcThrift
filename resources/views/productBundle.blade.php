@@ -9,7 +9,12 @@
                 <p class="text-[1.5vw]">Details:</p>
                 <p class="text-[1.5vw]">Details goes here</p>
                 <div class="flex justify-end items-end font-semibold">
-                    <button class="border bg-indigo-600 hover:bg-indigo-700 text-white rounded-md h-[4vh] w-[6vw] text-[1vw] shadow-lg hover:shadow-none mr-[2vw]">Add to cart</button>
+                    <form action="{{ route('cart.add') }}" method="POST">
+                        @csrf
+                        <input type="hidden" name="image" value="{{ $image }}">
+                        <input type="hidden" name="price" value="{{ $price }}">
+                        <button type="submit" class="border bg-indigo-600 hover:bg-indigo-700 text-white rounded-md h-[4vh] w-[6vw] text-[1vw] shadow-lg hover:shadow-none mr-[2vw]">Add to cart</button>
+                    </form>
                     <button class="border bg-indigo-600 hover:bg-indigo-700 text-white rounded-md h-[4vh] w-[6vw] text-[1vw] shadow-lg hover:shadow-none">Buy Now</button>
                 </div>
             </div>
