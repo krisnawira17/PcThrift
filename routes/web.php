@@ -37,6 +37,9 @@ Route::get('/bundle', function () {
 Route::get('/bundle-gaming', function () {
     return view('bundle-gaming');
 })->name('bundle-gaming');
+Route::get('/bundle-office', function () {
+    return view('bundle-office');
+})->name('bundle-office');
 
 Route::get('/build', function () {
     return view('build');

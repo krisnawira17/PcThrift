@@ -4,7 +4,6 @@
     <h2 class="mb-[0.5vh]">{{ $name }}</h2>
     <p>{{ $price }}</p>
     <a href="{{route('product.show',['image'=>$image, 'name'=>$name, 'price'=>$price])}}"><p class="text-blue-500 cursor-pointer mt-3 hover:text-blue-800 transition duration-100 ease-in">View Detail</p></a>
-    
 </div>
 
 </div>
