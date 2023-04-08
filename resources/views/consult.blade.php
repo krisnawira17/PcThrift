@@ -5,7 +5,7 @@
             <x-consultant-cards image="{{URL('images/malangPic.jpg')}}" name="Krisna Wira Indrawan" job="PC Builds Consultant" desc="Experienced pc builder, i can assist your process of picking the right pc parts for your need"></x-consultant-cards>
             <x-consultant-cards image="{{URL('images/SenaKristiawan.jpg')}}" name="Sena Kristiawan" job="Customer Support Consultant" desc="Experienced pc builder, i can assist your process of picking the right pc parts for your need"></x-consultant-cards>
             <x-consultant-cards image="{{URL('images/Micha.jpg')}}" name="Timothy Micha" job="PC Service Consultant" desc="Experienced pc builder, i can assist your process of picking the right pc parts for your need"></x-consultant-cards>
-            <x-consultant-cards image="{{URL('https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png')}}" name="Timothy Micha" job="PC Service Consultant')}}" name="Jeremy Nathaniel" job="Customer Support Consultant" desc="Experienced pc builder, i can assist your process of picking the right pc parts for your need"></x-consultant-cards>
+            <x-consultant-cards image="{{URL('images/Jeremy.jpg')}}" name="Jeremy Nathaniel" job="Customer Support Consultant" desc="Experienced pc builder, i can assist your process of picking the right pc parts for your need"></x-consultant-cards>
             <x-consultant-cards image="{{URL('https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png')}}" name="Timothy Micha" job="PC Service Consultant')}}" name="Nicholas Herman Gonzales" job="PC Builds Consultant" desc="Experienced pc builder, i can assist your process of picking the right pc parts for your need"></x-consultant-cards>
         </div>
     </div>
