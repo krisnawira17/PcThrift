@@ -40,6 +40,12 @@ Route::get('/bundle-gaming', function () {
 Route::get('/bundle-office', function () {
     return view('bundle-office');
 })->name('bundle-office');
+Route::get('/bundle-videoMaking', function () {
+    return view('bundle-videoMaking');
+})->name('bundle-videoMaking');
+Route::get('/bundle-art', function () {
+    return view('bundle-art');
+})->name('bundle-art');
 
 Route::get('/build', function () {
     return view('build');

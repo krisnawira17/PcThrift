@@ -1,5 +1,5 @@
 <x-header>
-    <h1 class="text-[2vw] font-bold mb-[4vh] m-4 text-center">Make your life easier</h1>
+    <h1 class="text-[2vw] font-bold mb-[4vh] m-4 text-center">Game like never before</h1>
     <div class="flex flex-col">
         <h2 class="text-center font-bold text-[1.5vw]">Alienware Series</h2>
         <div class="flex flex-row justify-center mb-[2vh]">

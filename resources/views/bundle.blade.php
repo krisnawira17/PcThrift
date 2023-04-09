@@ -12,12 +12,12 @@
         <p class="font-semibold text-[1.5vw] dark:text-gray-900">Office</p>
     
     
-        <a href="#" class="block w-[40vw] h-[25vh] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-100  dark:hover:bg-gray-200">
+        <a href="{{route('bundle-videoMaking')}}" class="block w-[40vw] h-[25vh] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-100  dark:hover:bg-gray-200">
         <img src="{{URL('images/VideoEditingLogo.svg')}}" class="items-center mx-auto mb-[3vh] h-[12vh]">
         <p class="font-semibold text-[1.5vw] dark:text-gray-900">Video Making</p>
     
     
-        <a href="#" class="block w-[40vw] h-[25vh] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-100  dark:hover:bg-gray-200">
+        <a href="{{route('bundle-art')}}" class="block w-[40vw] h-[25vh] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-100  dark:hover:bg-gray-200">
         <img src="{{URL('images/ArtLogo.svg')}}" class="items-center mx-auto mb-[3vh] h-[12vh]">
          <p class="font-semibold text-[1.5vw] dark:text-gray-900">Art</p>
     
